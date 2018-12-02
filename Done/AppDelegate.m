@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GetProcessInfo.h"
 
 @interface AppDelegate ()
 
@@ -14,10 +15,17 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+//    Moment *moment = [GetProcessInfo printMomentForApp:MVSCode];
 }
 
+- (void)applicationDidBecomeActive:(NSNotification *)notification
+{
+    for (NSWindow *window in [NSApp windows]) {
+        [window makeKeyAndOrderFront:self];
+    }
+}
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application

@@ -1,0 +1,40 @@
+PODS:
+  - Fragaria (1.0.2):
+    - Fragaria/unicode (= 1.0.2)
+  - Fragaria/unicode (1.0.2)
+  - LetsMove (1.24)
+  - Realm (3.11.1):
+    - Realm/Headers (= 3.11.1)
+  - Realm/Headers (3.11.1)
+  - Sparkle (1.20.0)
+
+DEPENDENCIES:
+  - Fragaria (from `Done/Fragaria.podspec.json`)
+  - LetsMove
+  - Realm
+  - Sparkle
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LetsMove
+    - Realm
+    - Sparkle
+
+EXTERNAL SOURCES:
+  Fragaria:
+    :podspec: Done/Fragaria.podspec.json
+
+CHECKOUT OPTIONS:
+  Fragaria:
+    :commit: 8794cd8867e1d032374525cb54b8d374fd8a5c58
+    :git: https://github.com/bitstadium/Fragaria.git
+
+SPEC CHECKSUMS:
+  Fragaria: 02606519a1f3d87f203929f9e9ebf0290f987372
+  LetsMove: fefe56bc7bc7fb7d37049e28a14f297961229fc5
+  Realm: 037c5919b9ceb59d6beed5d3b031096856b119b3
+  Sparkle: 48999e7ee032f05ca05e28451eadf4af8ede6b44
+
+PODFILE CHECKSUM: 65945966a9b5078499a00fdf99d16d0672d098cc
+
+COCOAPODS: 1.5.3
